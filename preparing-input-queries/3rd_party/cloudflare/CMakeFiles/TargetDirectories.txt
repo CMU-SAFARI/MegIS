@@ -1,0 +1,7 @@
+/Users/hmustafa/git/KMC/3rd_party/cloudflare/CMakeFiles/zlib.dir
+/Users/hmustafa/git/KMC/3rd_party/cloudflare/CMakeFiles/edit_cache.dir
+/Users/hmustafa/git/KMC/3rd_party/cloudflare/CMakeFiles/rebuild_cache.dir
+/Users/hmustafa/git/KMC/3rd_party/cloudflare/CMakeFiles/list_install_components.dir
+/Users/hmustafa/git/KMC/3rd_party/cloudflare/CMakeFiles/install.dir
+/Users/hmustafa/git/KMC/3rd_party/cloudflare/CMakeFiles/install/local.dir
+/Users/hmustafa/git/KMC/3rd_party/cloudflare/CMakeFiles/install/strip.dir

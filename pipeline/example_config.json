@@ -1,0 +1,15 @@
+{
+    "size_in_queries": 31,
+    "bandwidth_ext_IO": 0.5,
+    "T_bucketizing": 17.93,
+    "T_sorting": 23.71,
+    "size_pruned_queries": 7.3,
+    "size_database": 701,
+    "size_intersection": 7.1,
+    "size_taxID_database": 14,
+    "bandwidth_internal": 9.6,
+    "bandwidth_internal_DRAM": 8,
+    "T_accelerator_intersection": 5.75,
+    "T_accelerator_taxID": 0.12,
+    "T_fetching_species": 21
+}

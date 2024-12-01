@@ -116,10 +116,10 @@ where `$NUM_THREADS` is the desired number of threads and `$INTERSECTION_OUT` is
 
 To find the end-to-end throughput of the `pipeline`, we incorporate the latency and throughput of all of MegIS's components, including host operations, accessing flash chips, internal DRAM, in-storage accelerator, and host-SSD interfaces. 
 
-For the components in the hardware-based steps (e.g., finding candidate species): We implement MegIS’s logic components in Verilog. We use two state-of-the-art simulators,
+For the components in the hardware-based steps (e.g., [Finding Candidate Species](#finding-candidate-species)): We implement MegIS’s logic components in Verilog, as explained above. We use two state-of-the-art simulators,
 [Ramulator](https://github.com/CMU-SAFARI/ramulator) to model SSD’s internal DRAM, and [MQSim](https://github.com/CMU-SAFARI/MQSim) to model SSD’s internal operations. 
 
-For the components in the software-based step (e.g., host operations for preparing the input queries), we measure performance on a real system, an AMD® EPYC® 7742 CPU with 128 physical cores and 1-TB DRAM. For the software baselines, we measure performance on this real system, with best-performing thread counts. 
+For the components in the software-based step (e.g., host operations for [Preparing the Input Queries](#preparing-the-input-queries)), we measure performance on a real system (an AMD® EPYC® 7742 CPU with 128 physical cores and 1-TB DRAM). For the software baselines, we measure performance on this real system, with best-performing thread counts. 
 
 
 ## Contact
